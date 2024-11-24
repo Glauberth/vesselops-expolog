@@ -13,10 +13,10 @@ import {
   Th,
   Thead,
   Tr,
+  Table,
 } from "@chakra-ui/react";
 // import Image from "next/image";
 import { useEffect, useState } from "react";
-import { Table } from "@chakra-ui/react";
 import { countries } from "@/hooks/data/Contry";
 import { islands } from "@/hooks/data/Islands";
 
@@ -122,7 +122,9 @@ export default function Dashboard() {
             <Table
               size="xs"
               variant="simple"
-              sx={{ borderCollapse: "collapse" }}
+              // bg={"ActiveCaption"}
+              borderRadius={"2xl"}
+              // sx={{ borderCollapse: "collapse" }}
             >
               <Thead>
                 <Tr>
@@ -177,7 +179,7 @@ export default function Dashboard() {
           <Stack justifyContent={"space-between"}>
             <Stack direction={"row"} mt={1} mb={3}>
               <Text>CII</Text>
-              <Text fontSize={8} marginTop={2}>
+              <Text fontSize={12} marginTop={1}>
                 Carbon Intensity Indicator
               </Text>
             </Stack>

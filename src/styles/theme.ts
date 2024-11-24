@@ -11,9 +11,9 @@ export const theme = extendTheme({
           border: "1px solid black",
           padding: "5px",
         },
-        table: {
-          borderCollapse: "collapse",
-        },
+        // table: {
+        //   borderCollapse: "collapse",
+        // },
       },
     },
   },

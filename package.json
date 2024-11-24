@@ -1,5 +1,5 @@
 {
-  "name": "nucleo",
+  "name": "vesselOps",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -20,26 +20,17 @@
     "@types/react-dom": "18.2.7",
     "@types/react-input-mask": "^3.0.5",
     "apexcharts": "^3.42.0",
-    "axios": "^1.6.8",
     "chroma-js": "^3.1.1",
     "eslint": "8.49.0",
     "eslint-config-next": "^14.2.13",
     "framer-motion": "^10.16.4",
     "next": "^14.2.13",
-    "nookies": "^2.5.2",
     "react": "^18.3.1",
-    "react-apexcharts": "^1.4.1",
     "react-dom": "^18.3.1",
     "react-hook-form": "^7.46.1",
     "react-icons": "^4.11.0",
     "react-input-mask": "^2.0.4",
-    "react-query": "^3.39.3",
-    "react-select": "^5.8.1",
     "typescript": "5.2.2",
     "yup": "^1.2.0"
-  },
-  "devDependencies": {
-    "@faker-js/faker": "^8.1.0",
-    "@types/chroma-js": "^2.4.4"
   }
 }
